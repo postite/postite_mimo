@@ -1,0 +1,2 @@
+-lib mime
+--macro mime.Mime.init()

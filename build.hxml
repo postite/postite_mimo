@@ -1,0 +1,7 @@
+-cp src
+-cp tests
+-D analyzer-optimize
+-lib utest
+-lib mime
+-main RunAll
+--interp
