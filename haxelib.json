@@ -1,14 +1,14 @@
 {
-    "name": "postite_mime",
+    "name": "postite_mimo",
     "url" : "",
     "license": "MIT",
     "tags": ["mime"],
     "description": "This library is useless in the same way on every platform.",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "classPath": "src/",
     "releasenote": "Initial release, everything is working correctly.",
     "contributors": ["postite"],
     "dependencies": {
-      
+        "mime"
     }
   }
