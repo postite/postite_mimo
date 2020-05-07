@@ -1,6 +1,7 @@
 import haxe.io.Path;
 import sys.FileSystem;
 import utest.Assert;
+import mimo.Mimo;
 class SimpleTest extends utest.Test{
     var images:Array<String>;
     var autres:Array<String>;

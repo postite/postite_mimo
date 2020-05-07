@@ -26,7 +26,7 @@ abstract MimeGroup(MimoType) from MimoType to MimoType{
 
     public function new(a:MimoType){
         this=a;
-        return this;
+       // return this;
     }
 
     @to 
@@ -56,7 +56,7 @@ abstract ExtGroup(Extension) from Extension to Extension{
 
 	public function new(a:Extension){
         this=a;
-        return this;
+        //return this;
     }
 	@to 
     public function toGroup():Group{
