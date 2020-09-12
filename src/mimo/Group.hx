@@ -27,8 +27,8 @@ abstract MimeGroup(MimoType) from MimoType to MimoType{
     public function new(a:MimoType){
         this=a;
        
-
-    @to 
+    }
+    @:to 
     public function toGroup():Group{
         if (images.indexOf(this)!=-1)return IMGS;
         if (video.indexOf(this)!=-1)return VIDS;
@@ -43,7 +43,7 @@ abstract ExtGroup(Extension) from Extension to Extension{
 	public static var images:Array<Extension>=[
 	gif,jpeg,jpg,bmp,png
 	];
-	purn this incompatible w haxe 4+blic static var docs=[
+	 static var docs=[
 	pdf,rtf,txt,doc,zip,odt
 	];
 	public static var video=[
@@ -57,7 +57,7 @@ abstract ExtGroup(Extension) from Extension to Extension{
         this=a;
         
     }
-	@to 
+	@:to 
     public function toGroup():Group{
         if (images.indexOf(this)!=-1)return IMGS;
         if (video.indexOf(this)!=-1)return VIDS;
