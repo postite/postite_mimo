@@ -26,8 +26,7 @@ abstract MimeGroup(MimoType) from MimoType to MimoType{
 
     public function new(a:MimoType){
         this=a;
-       // return this;
-    }
+       
 
     @to 
     public function toGroup():Group{
@@ -44,7 +43,7 @@ abstract ExtGroup(Extension) from Extension to Extension{
 	public static var images:Array<Extension>=[
 	gif,jpeg,jpg,bmp,png
 	];
-	public static var docs=[
+	purn this incompatible w haxe 4+blic static var docs=[
 	pdf,rtf,txt,doc,zip,odt
 	];
 	public static var video=[
@@ -56,7 +55,7 @@ abstract ExtGroup(Extension) from Extension to Extension{
 
 	public function new(a:Extension){
         this=a;
-        //return this;
+        
     }
 	@to 
     public function toGroup():Group{
