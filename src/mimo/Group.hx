@@ -57,6 +57,9 @@ abstract ExtGroup(Extension) from Extension to Extension{
         this=a;
         
     }
+    @:from
+    public static function fromString(s:String):Extension
+        return new Extension(s);
 	@:to 
     public function toGroup():Group{
         if (images.indexOf(this)!=-1)return IMGS;
